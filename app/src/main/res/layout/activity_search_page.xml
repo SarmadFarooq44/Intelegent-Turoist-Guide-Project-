@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2196F3"
+    tools:context=".SearchPage">
+
+    <Button
+        android:id="@+id/AddFavorites"
+        android:layout_width="154dp"
+        android:layout_height="59dp"
+        android:text="Add To Favorites"
+        app:layout_constraintBottom_toTopOf="@+id/buttonRead"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.175"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textDescription"
+        app:layout_constraintVertical_bias="0.451" />
+
+    <Button
+        android:id="@+id/buttonWrite"
+        android:layout_width="154dp"
+        android:layout_height="59dp"
+        android:text="Write Review"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.828"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textClosing"
+        app:layout_constraintVertical_bias="0.847" />
+
+    <TextView
+        android:id="@+id/textClosing"
+        android:layout_width="154dp"
+        android:layout_height="59dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.824"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textName"
+        app:layout_constraintVertical_bias="0.1" />
+
+    <Button
+        android:id="@+id/buttonHome"
+        android:layout_width="102dp"
+        android:layout_height="53dp"
+        android:text="Home"
+        app:layout_constraintBottom_toTopOf="@+id/editTextSearchBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.857"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.463" />
+
+    <EditText
+        android:id="@+id/editTextSearchBar"
+        android:layout_width="322dp"
+        android:layout_height="43dp"
+        android:drawableLeft="@drawable/ic_action_search"
+        android:ems="10"
+        android:hint="Enter Name of Place"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.196" />
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="322dp"
+        android:layout_height="62dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.522"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextSearchBar"
+        app:layout_constraintVertical_bias="0.185" />
+
+    <TextView
+        android:id="@+id/textOpening"
+        android:layout_width="154dp"
+        android:layout_height="59dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.175"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textName"
+        app:layout_constraintVertical_bias="0.1" />
+
+    <TextView
+        android:id="@+id/textDescription"
+        android:layout_width="322dp"
+        android:layout_height="104dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textName"
+        app:layout_constraintVertical_bias="0.368" />
+
+    <Button
+        android:id="@+id/buttonRead"
+        android:layout_width="154dp"
+        android:layout_height="59dp"
+        android:text="Read Review"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.175"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textOpening"
+        app:layout_constraintVertical_bias="0.847" />
+
+    <Button
+        android:id="@+id/buttonFind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        app:backgroundTint="#00BCD4"
+        app:layout_constraintBottom_toTopOf="@+id/textName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.861"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextSearchBar"
+        app:layout_constraintVertical_bias="0.468" />
+
+    <Button
+        android:id="@+id/buttonAddPlaces"
+        android:layout_width="193dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="36dp"
+        android:text="Add Places"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.206"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.059" />
+
+    <Button
+        android:id="@+id/BlockObject"
+        android:layout_width="154dp"
+        android:layout_height="59dp"
+        android:text="Block Object"
+        app:layout_constraintBottom_toTopOf="@+id/buttonWrite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.824"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textDescription"
+        app:layout_constraintVertical_bias="0.451" />
+</androidx.constraintlayout.widget.ConstraintLayout>

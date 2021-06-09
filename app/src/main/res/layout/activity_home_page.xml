@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2196F3"
+    tools:context=".HomePage">
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="124dp"
+        android:layout_height="58dp"
+        android:text="Reviews"
+        app:backgroundTint="#00BCD4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.36"
+        app:layout_constraintStart_toEndOf="@+id/button7"
+        app:layout_constraintTop_toBottomOf="@+id/button6"
+        app:layout_constraintVertical_bias="0.087" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="124dp"
+        android:layout_height="58dp"
+        android:text="Sales"
+        app:backgroundTint="#00BCD4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.219"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4"
+        app:layout_constraintVertical_bias="0.087" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="124dp"
+        android:layout_height="58dp"
+        android:text="Guidance"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.36"
+        app:layout_constraintStart_toEndOf="@+id/button4"
+        app:layout_constraintTop_toBottomOf="@+id/button3"
+        app:layout_constraintVertical_bias="0.062" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="284dp"
+        android:layout_height="59dp"
+        android:text="Booking"
+        app:backgroundTint="#00BCD4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintVertical_bias="0.043" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="284dp"
+        android:layout_height="59dp"
+        android:text="View Recommandations"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSearch"
+        app:layout_constraintVertical_bias="0.031" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="324dp"
+        android:layout_height="107dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Intelligent Tourist Guide"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.091" />
+
+    <Button
+        android:id="@+id/buttonSearch"
+        android:layout_width="284dp"
+        android:layout_height="59dp"
+        android:text="Search Locations"
+        app:backgroundTint="#00BCD4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.228" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="124dp"
+        android:layout_height="58dp"
+        android:text="AI Help"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.219"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3"
+        app:layout_constraintVertical_bias="0.062" />
+
+    <Button
+        android:id="@+id/ViewFavoritesBlocks"
+        android:layout_width="284dp"
+        android:layout_height="59dp"
+        android:text="View Favorites/Blocks"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3"
+        app:layout_constraintVertical_bias="0.814" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

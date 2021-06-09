@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2196F3"
+    tools:context=".AddPlaces">
+
+    <EditText
+        android:id="@+id/editOpenOfPlace"
+        android:layout_width="163dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:hint="Opening Time"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/editDescriptionOfPlace"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.149"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editNameOfPlace"
+        app:layout_constraintVertical_bias="0.576" />
+
+    <EditText
+        android:id="@+id/editNameOfPlace"
+        android:layout_width="336dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:hint="Add Name Of Place"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.194" />
+
+    <EditText
+        android:id="@+id/editDescriptionOfPlace"
+        android:layout_width="336dp"
+        android:layout_height="292dp"
+        android:ems="10"
+        android:hint="Enter Description Of Place"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editNameOfPlace"
+        app:layout_constraintVertical_bias="0.459" />
+
+    <EditText
+        android:id="@+id/editCloseOfPlace"
+        android:layout_width="163dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:hint="Closing Time"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/editDescriptionOfPlace"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.846"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editNameOfPlace"
+        app:layout_constraintVertical_bias="0.578" />
+
+    <Button
+        android:id="@+id/buttonPreviousPlace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:text="Previous"
+        app:layout_constraintBottom_toTopOf="@+id/editNameOfPlace"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.88"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/buttonSubmitPlace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editDescriptionOfPlace" />
+</androidx.constraintlayout.widget.ConstraintLayout>
